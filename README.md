@@ -6,6 +6,8 @@ git clone https://github.com/kby8834/git-tutorial.git|Repository 복사
 git branch|branchh 목록
 git branch live-chat|branch 생성
 git checkout live-chat|사용할 branch 지정
+git add 파일명|인덱스에 등록
+git commit -m "설명"|Commit
 
 ## 글자 크기
 ### 글자 크기
