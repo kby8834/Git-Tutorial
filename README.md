@@ -1,7 +1,10 @@
 # git-tutorial
-git config --list
-
-git clone https://github.com/kby8834/git-tutorial.git
+명령어|설명
+---|---|
+git config --list| 설정 목록
+git clone https://github.com/kby8834/git-tutorial.git|Repository 복사
+git branch|branchh 목록
+git branch live-chat|branch 생성
 
 ## 글자 크기
 ### 글자 크기
