@@ -5,6 +5,7 @@ git config --list| 설정 목록
 git clone https://github.com/kby8834/git-tutorial.git|Repository 복사
 git branch|branch 목록
 git branch live-chat|branch 생성
+git branch -d branchname| branch 삭제
 git checkout live-chat|사용할 branch 지정
 git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
