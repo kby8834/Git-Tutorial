@@ -6,9 +6,11 @@ git branch|branch 목록
 git branch live-chat|branch 생성
 git branch -d branchname| branch 삭제
 git checkout live-chat|사용할 branch 지정
+git init|Repository 초기화
 git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
 git remote add origin "Repository URL"|원격 주소지에 추가
+git push -u origin master|Push
 git config --list| 설정 목록
 git config --global https.proxy http://ip:port|Proxy 설정
 git config --global http.proxy http://ip:port|Proxy 설정
