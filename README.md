@@ -1,7 +1,6 @@
 # git-tutorial
 명령어|설명
 ---|---|
-git config --list| 설정 목록
 git clone https://github.com/kby8834/git-tutorial.git|Repository 복사
 git branch|branch 목록
 git branch live-chat|branch 생성
@@ -10,6 +9,10 @@ git checkout live-chat|사용할 branch 지정
 git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
 git remote add origin "Repository URL"|원격 주소지에 추가
+git config --list| 설정 목록
+git config --global https.proxy https://ip:port|Proxy 설정
+git config --global http.proxy http://ip:port|Proxy 설정
+git config --global http.sslVerify false|ssl 설정
 
 ## 글자 크기
 ### 글자 크기
