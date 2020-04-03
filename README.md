@@ -10,7 +10,7 @@ git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
 git remote add origin "Repository URL"|원격 주소지에 추가
 git config --list| 설정 목록
-git config --global https.proxy https://ip:port|Proxy 설정
+git config --global https.proxy http://ip:port|Proxy 설정
 git config --global http.proxy http://ip:port|Proxy 설정
 git config --global http.sslVerify false|ssl 설정
 
