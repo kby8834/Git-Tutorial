@@ -7,6 +7,7 @@ git config --list| 설정 목록
 git config --global https.proxy http://ip:port|Proxy 설정
 git config --global http.proxy http://ip:port|Proxy 설정
 git config --global http.sslVerify false|ssl 설정
+git config --global --unset http.proxy|설정 초기화
 git init|Repository 초기화
 git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
