@@ -12,6 +12,7 @@ git init|Repository 초기화
 git add 파일명|인덱스에 등록
 git commit -m "설명"|Commit
 git remote add origin "Repository URL"|원격 주소지에 추가
+git remote update|원격의 branch를 찾지 못할 경우 갱신
 git push -u origin master|Push
 git clone https://github.com/kby8834/git-tutorial.git|Repository 복사
 git branch|branch 목록
